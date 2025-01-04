@@ -12,4 +12,7 @@
     <ProjectReference Include="..\Shared\Shared.csproj" />
 </ItemGroup>
   </ItemGroup>
+<ItemGroup>
+    <ProjectReference Include="..\Shared\TusklaBlazor.Shared.csproj" />
+</ItemGroup>
 </Project>
