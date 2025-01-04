@@ -10,6 +10,6 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
   </ItemGroup>
 <ItemGroup>
-    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\Shared\TusklaBlazor.Shared.csproj" />
 </ItemGroup>
 </Project>
