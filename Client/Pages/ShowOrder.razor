@@ -1,0 +1,248 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using TusklaBlazor.Server.Models
+@using TusklaBlazor.Shared.Models
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+@using Blazored.LocalStorage
+@inject ILocalStorageService LocalStorage
+@using System.Text.Json
+
+@page "/showorder"
+
+<div class="flex-container">
+    <div class="flex-child" style="border: 0.5px solid #d3d3d3">
+        <div style="margin-left: 1px">
+            <h3>Order Details</h3>
+            <br />
+
+            @if (VehicleOrderInfo != null)
+            {
+                <div class="order-details">
+                    <div class="order-info-item">
+                        <strong>Order ID:</strong> <span>@VehicleOrderInfo.OrderId</span>
+                    </div> <br />
+
+                    <div class="order-info-item">
+                        <strong>Order Subtotal:</strong> <span>@subTotal.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Tax:</strong> <span>@Tax.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Delivery:</strong> <span>@Delivery.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Deposit:</strong> <span>@Deposit.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Total:</strong> <span>@Total.ToString("C0")</span>
+                    </div> <br />
+
+                    <div class="order-info-item">
+                        <strong>Name:</strong> <span>@VehicleOrderInfo.Name</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>Address:</strong> <span>@VehicleOrderInfo.Address</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>City:</strong> <span>@VehicleOrderInfo.City</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>State:</strong> <span>@VehicleOrderInfo.State</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>Zip:</strong> <span>@VehicleOrderInfo.Zip</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>Email:</strong> <span>@VehicleOrderInfo.Email</span>
+                    </div>
+                </div>
+            }
+
+        </div>
+        
+
+
+    </div>
+
+    <div class="flex-child" style="border: 0.5px solid #d3d3d3">
+        <div style="margin-left: 1px">
+
+            @if (orderItems != null && orderItems.Any())
+            {
+                <h4>Order Items</h4>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in orderItems)
+                        {
+                            <tr>
+                                <td>@item.Description</td>
+                                <td>@item.Price.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+
+        </div>
+    </div>
+
+</div>
+
+<div class="btn ">
+    <button class="btn btn-primary"  @onclick="Continue">Continue</button>
+</div>
+
+@code {
+    private VehicleOrderInfo VehicleOrderInfo;
+    private List<Item> orderItems;
+    private decimal subTotal = 0; // Changed from int to decimal
+    private decimal Tax = 0; // Changed from int to decimal
+    private decimal Total = 0;
+    private decimal Delivery = 1390; // Changed from int to decimal
+    private decimal Deposit = 250;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+            var orderIdString = uri.Query.Split("=")[1]; // Extract the orderId from the query string
+            if (int.TryParse(orderIdString, out int orderId))
+            {
+                await FetchVehicleOrderInfo(orderId);
+                await FetchOrderItems(orderId);
+ 
+                CalculateSubTotal();
+                subTotal = @Math.Round(subTotal);
+  
+                Tax = @Math.Round(0.07m * subTotal); // Ensure both operands are of the same type (decimal)
+
+                CalculateTotal(); // Calculate the Total
+                Total = @Math.Round(Total);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing ShowOrder component: {ex.Message}");
+        }
+    }
+
+    private void CalculateSubTotal()
+    {
+        subTotal = orderItems.Sum(item => item.Price);
+    }
+
+    private void CalculateTotal()
+    {
+        Total = subTotal + Tax + 1390 + 250;
+    }
+
+    private async Task FetchVehicleOrderInfo(int orderId)
+    {
+        try
+        {
+            VehicleOrderInfo = await HttpClient.GetFromJsonAsync<VehicleOrderInfo>($"api/VehicleOrderInfo/{orderId}");
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+            Console.WriteLine($"Error fetching order info: {ex.Message}");
+        }
+    }
+
+    private async Task FetchOrderItems(int orderId)
+    {
+        try
+        {
+            // Retrieve serialized order items from local storage
+            string serializedOrderItems = await LocalStorage.GetItemAsStringAsync("itemList");
+
+            // Deserialize the JSON data into a List<Item> object
+            if (!string.IsNullOrWhiteSpace(serializedOrderItems))
+            {
+                orderItems = JsonSerializer.Deserialize<List<Item>>(serializedOrderItems);
+            }
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+            Console.WriteLine($"Error fetching order items: {ex.Message}");
+        }
+    }
+
+    private async Task Continue()
+    {
+        // You can perform any necessary actions here before navigating
+
+        // Navigate to the desired page (e.g., '/')
+        NavigationManager.NavigateTo("/");
+    }
+
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .flex-container {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: space-around; /* Equal space around the flex items */
+    }
+
+    .flex-child {
+        display: flex;
+        width: calc(50% - 35px); /* 50% width minus the margin between */
+        margin: 15px; /* Space between flex items */
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px solid #d3d3d3;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-label {
+        width: 120px;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    .form-control {
+        width: 150%;
+    }
+
+    .btn {
+        margin-right: 5px;
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        
+    }
+</style>

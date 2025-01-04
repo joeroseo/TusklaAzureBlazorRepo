@@ -1,0 +1,73 @@
+@using TusklaBlazor.Shared.Models
+@using TusklaBlazor.Shared.Services
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+@inject CartService CartService
+@page "/showproducts"
+<div class="flex-container">
+    <div class="flex-child" style="border: 0.5px solid #d3d3d3">
+        <div style="margin-left: 1px">
+            @if (products != null)
+            {
+                <h4>Products</h4>
+                <div class="image-container">
+                    @foreach (var product in products)
+                    {
+                        <div class="image-item">
+                            <img src="@product.imageSource" alt="@product.Name" style="max-width: 200px; max-height: 200px; margin-bottom: 10px;" />
+                            <div>@product.Name</div>
+                            <div>@product.Price.ToString("C0")</div>
+                            <div><button @onclick="() => AddProduct(product)">Add to Cart</button></div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Product> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await GetProductData();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing ShowProduct component: {ex.Message}");
+        }
+    }
+
+private async Task GetProductData()
+{
+    try
+    {
+        products = await HttpClient.GetFromJsonAsync<List<Product>>("api/product");
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"Error fetching products: {ex.Message}");
+    }
+}
+
+    private void AddProduct(Product product)
+    {
+        CartService.AddToCart(product);
+    }
+}
+
+<style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .image-item {
+        text-align: center;
+    }
+</style>

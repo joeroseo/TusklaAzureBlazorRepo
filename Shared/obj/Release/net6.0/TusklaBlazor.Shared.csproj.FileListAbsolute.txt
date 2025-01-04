@@ -1,0 +1,13 @@
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\bin\Release\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\bin\Release\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\bin\Release\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.sourcelink.json
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Release\net6.0\ref\TusklaBlazor.Shared.dll

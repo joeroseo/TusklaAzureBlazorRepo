@@ -1,0 +1,74 @@
+﻿@page "/orderitems/add"
+@page "/orderitems/edit/{orderId:int}"
+@using TusklaBlazor.Shared.Models
+@using TusklaBlazor.Server.Models
+@using Blazored.LocalStorage
+@using Microsoft.AspNetCore.Components.Web
+@using TusklaBlazor.Shared.Models
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IItemListService ItemListService
+@inject ILocalStorageService LocalStorage
+@using System.Text.Json
+
+<h1>@Title Order Items</h1>
+<hr />
+
+<EditForm Model="@orderItem" OnValidSubmit="SaveOrderItem">
+    <DataAnnotationsValidator />
+    <div class="mb-3">
+        <label for="Description" class="form-label">Description</label>
+        <div class="col-md-4">
+            <InputText class="form-control" @bind-Value="orderItem.Description" />
+        </div>
+        <ValidationMessage For="@(() => orderItem.Description)" />
+    </div>
+    <div class="mb-3">
+        <label for="Price" class="form-label">Price</label>
+        <div class="col-md-4">
+            <InputNumber class="form-control" @bind-Value="orderItem.Price" />
+        </div>
+        <ValidationMessage For="@(() => orderItem.Price)" />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-light" @onclick="Cancel">Cancel</button>
+    </div>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int orderId { get; set; }
+
+    protected string Title = "Add";
+    protected VehicleOrderItems orderItem = new();
+    private List<Item> orderItems;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (orderId != 0)
+        {
+            Title = "Edit";
+            orderItem = await Http.GetFromJsonAsync<VehicleOrderItems>("api/VehicleOrderItems/" + orderId);
+        }
+    }
+
+    protected async Task SaveOrderItem()
+    {
+        if (orderItem.OrderId != null)
+        {
+            await Http.PutAsJsonAsync("api/VehicleOrderItems", orderItem);
+        }
+        else
+        {
+            await Http.PostAsJsonAsync("api/VehicleOrderItems", orderItem);
+        }
+        Cancel();
+    }
+
+    public void Cancel()
+    {
+        NavigationManager.NavigateTo("/fetchorderitems");
+    }
+}
+

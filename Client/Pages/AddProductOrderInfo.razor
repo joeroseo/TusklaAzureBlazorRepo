@@ -1,0 +1,273 @@
+﻿@page "/orderproductinfo/add"
+@page "/orderproductinfo/edit/{orderId:int}"
+
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using TusklaBlazor.Shared.Models
+@using TusklaBlazor.Server.Models
+@using Microsoft.AspNetCore.Components.Web
+@using Blazored.LocalStorage
+@using System.Text.Json
+@using TusklaBlazor.Shared.Services
+<!-- add an at symbol to require authentication - attribute [Authorize] -->
+
+@inject CartService CartService
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+@inject IItemListService ItemListService
+@inject CartService CartService
+@inject ILocalStorageService LocalStorage
+
+
+
+
+<div class="flex-container">
+    <div class="flex-child" style="border: 0.5px solid #d3d3d3">
+        <div style="margin-left: 1px">
+            <h3>Order Information</h3>
+            <hr />
+
+            <EditForm Model="@orderInfo" OnValidSubmit="SaveOrderInfo">
+                <DataAnnotationsValidator />
+                <div class="form-group">
+                    <div class="d-flex align-items-start">
+                        <label for="Name" class="form-label">Name</label>
+                        <div class="flex-grow-1">
+                            <InputText class="form-control" @bind-Value="orderInfo.Name" />
+                            <ValidationMessage For="@(() => orderInfo.Name)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex align-items-start">
+                        <label for="Address" class="form-label">Address</label>
+                        <div class="flex-grow-1">
+                            <InputText class="form-control" @bind-Value="orderInfo.Address" />
+                            <ValidationMessage For="@(() => orderInfo.Address)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex align-items-start">
+                        <label for="City" class="form-label">City</label>
+                        <div class="flex-grow-1">
+                            <InputText class="form-control" @bind-Value="orderInfo.City" />
+                            <ValidationMessage For="@(() => orderInfo.City)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex align-items-start">
+                        <label for="State" class="form-label">State</label>
+                        <div class="flex-grow-1">
+                            <InputText class="form-control" @bind-Value="orderInfo.State" />
+                            <ValidationMessage For="@(() => orderInfo.State)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex align-items-start">
+                        <label for="Zip" class="form-label">Zip</label>
+                        <div class="flex-grow-1">
+                            <InputText class="form-control" @bind-Value="orderInfo.Zip" />
+                            <ValidationMessage For="@(() => orderInfo.Zip)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex align-items-start">
+                        <label for="Email" class="form-label">Email</label>
+                        <div class="flex-grow-1">
+                            <InputText class="form-control" @bind-Value="orderInfo.Email" />
+                            <ValidationMessage For="@(() => orderInfo.Email)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <br />
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button class="btn btn-primary" @onclick="Cancel">Cancel</button>
+                </div>
+            </EditForm>
+
+ 
+
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int orderId { get; set; }
+
+    protected string Title = "Add";
+    private List<Item> orderItems;
+    private List<CartItem> orderItems2;
+    protected ProductOrderInfo orderInfo = new ProductOrderInfo
+        {
+            Name = "Joseph O'Connor",
+            Address = "144 Castlegate Ln",
+            City = "St Johns",
+            State = "FL",
+            Zip = "32259",
+            Email = "joerosejax@gmail.com"
+        };
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (orderId != 0)
+        {
+            Title = "Edit";
+            orderInfo = await Http.GetFromJsonAsync<ProductOrderInfo>("api/ProductOrderInfo/" + orderId);
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("AddProduct Initialized");
+        Console.WriteLine($"totalCartItems.Count {CartService.CartItems.Count}");
+        try
+        {
+            Console.WriteLine($"totalCartItems.Count {CartService.CartItems.Count}");
+
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing ShowOrder component: {ex.Message}");
+        }
+    }
+
+
+
+    protected async Task SaveOrderInfo()
+    {
+        Console.WriteLine($"totalCartItems.Count {CartService.CartItems.Count}");
+
+        if (orderInfo.OrderId != 0)
+        {
+            await Http.PutAsJsonAsync("api/ProductOrderInfo", orderInfo);
+        }
+        else
+        {
+            HttpResponseMessage response = await Http.PostAsJsonAsync("api/ProductOrderInfo", orderInfo);
+            Console.WriteLine($"totalCartItems.Count {CartService.CartItems.Count}");
+
+
+            if (response.IsSuccessStatusCode)
+            {
+                string orderIdString = await response.Content.ReadAsStringAsync();
+                if (int.TryParse(orderIdString, out int newOrderId))
+                {
+                    orderId = newOrderId;
+                    Console.WriteLine($"totalCartItems.Count {CartService.CartItems}");
+
+
+
+                    foreach (var item in CartService.CartItems)
+                    {
+                        try
+                        {
+                            ProductOrderItems productOrderItem = new ProductOrderItems
+                                {
+                                    OrderId = orderId, // Make sure orderId is correctly set
+                                    Description = item.Product.Name,
+                                    Price = item.Product.Price,
+                                    Quantity = item.Quantity
+                                };
+
+                            Console.WriteLine($"productOrderItem.OrderID {productOrderItem.OrderId}");
+                            Console.WriteLine($"productOrderItem.Name {productOrderItem.Description}");
+                            Console.WriteLine($"productOrderItem.Name {productOrderItem.Price}");
+                            Console.WriteLine($"productOrderItem.Name {productOrderItem.Quantity}");
+
+                            // Make sure the HttpClient instance is properly configured and initialized
+                            HttpResponseMessage response2 = await Http.PostAsJsonAsync("api/productOrderItems", productOrderItem);
+                            if (response2.IsSuccessStatusCode)
+                            {
+                                // Handle success
+                                Console.WriteLine($"item {productOrderItem.Description} saved");
+                            }
+                            else
+                            {
+                                // Handle failure
+                                Console.WriteLine($"item {productOrderItem.Description} not saved");
+                                // Log the response content for debugging
+                                string responseContent = await response2.Content.ReadAsStringAsync();
+                                Console.WriteLine($"Response Content: {responseContent}");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            // Handle exceptions
+                            Console.WriteLine($"An error occurred: {ex.Message}");
+                        }
+                    }
+                    CartService.CartItems.Clear();
+                //    Console.WriteLine($"orderId for navigation is : {orderId}");
+                //    NavigationManager.NavigateTo("/showproductorder?orderId={orderId}");
+
+                    // Encode orderId using Uri.EscapeDataString
+                    string encodedOrderId = Uri.EscapeDataString(orderId.ToString());
+                    Console.WriteLine($"orderId for navigation is: {orderId}");
+
+                    // Use the encoded orderId in the NavigationManager.NavigateTo method
+                    NavigationManager.NavigateTo($"/showproductorder?orderId={encodedOrderId}");
+             }
+            }
+        }
+    }
+
+
+
+    public void Cancel()
+    {
+        NavigationManager.NavigateTo("/fetchorderinfo");
+    }
+
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .flex-container {
+        display: flex;
+        
+        margin: 20px;
+        justify-content: center; /* Horizontally center the flex items */
+    }
+
+    .flex-child {
+        display: flex;
+        width: 60%;
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px solid #d3d3d3;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-label {
+        width: 120px;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    .form-control {
+        width: 150%;
+    }
+
+    .btn {
+        margin-right: 5px;
+    }
+</style>

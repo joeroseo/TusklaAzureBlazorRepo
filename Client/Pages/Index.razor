@@ -1,0 +1,51 @@
+﻿@page "/"
+
+@inject IJSRuntime JSRuntime
+
+<div class="video-container">
+    <video id="videoPlayer" class="video-js" autoplay muted loop>
+        <source src="@localVideoSource" type="video/mp4" />
+    </video>
+    <img src="/img/other/Tuskla.jpg" alt="Tuskla" class="centered-image" />
+</div>
+
+@code {
+    private string localVideoSource = "/videos/Tesla.mp4";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initializeVideo");
+        }
+    }
+}
+
+<style>
+    /* Flexbox container for video and centered image */
+    .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        width: 100vw; /* Full viewport width */
+        position: relative;
+        overflow: hidden; /* Ensure no overflow issues */
+    }
+
+    /* Responsive video styles */
+    .video-js {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover; /* Ensures the video fills the container */
+    }
+
+    /* Centered image style */
+    .centered-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.3); /* Center and scale */
+        pointer-events: none; /* Prevent interaction with the image */
+    }
+</style>
