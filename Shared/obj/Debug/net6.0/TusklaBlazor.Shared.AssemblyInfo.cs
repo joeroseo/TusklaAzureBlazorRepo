@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TusklaBlazor.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc429a89e9b87afe0047f14bc101df078ce0af14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6446936b8e91cbc91d4cc031c2c85e6e3f685fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("TusklaBlazor.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TusklaBlazor.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

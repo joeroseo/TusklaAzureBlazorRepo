@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using System;
 using TusklaBlazor.Server.Models;
+using TusklaBlazor.Shared.Models;
 
 public static class ProductFunction
 {

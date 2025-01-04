@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TusklaBlazor.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fe19a173568e5e0d3ecd653ebfa5c50e59a068e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6446936b8e91cbc91d4cc031c2c85e6e3f685fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("TusklaBlazor.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TusklaBlazor.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
