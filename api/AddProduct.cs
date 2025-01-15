@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Api
 {
-    public static class ProductFunction
+    public static class ProductFunction2
     {
         [FunctionName("GetProducts2")]
         public static HttpResponseMessage GetProducts2(
