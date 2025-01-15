@@ -1,10 +1,6 @@
 {
   "routes": [
     {
-      "route": "/api/*",
-      "rewrite": "/api"
-    },
-    {
       "route": "/api/product",
       "methods": [
         "get"
@@ -12,6 +8,10 @@
       "allowedRoles": [
         "anonymous"
       ]
+    },
+    {
+      "route": "/api/*",
+      "rewrite": "/api"
     }
   ]
 }
