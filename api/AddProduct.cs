@@ -1,22 +1,28 @@
-using System.Net.Http;
-using System.Net;
-using System.Text.Json;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Text.Json;
+using System;
+using TusklaBlazor.Server.Models;
+using TusklaBlazor.Shared.Models;
 
-namespace Api
+namespace MyNamespace
 {
-    public static class ProductFunction
+    public static class ProductFunction2
     {
         [FunctionName("GetProducts2")]
         public static HttpResponseMessage GetProducts2(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "product2")] HttpRequestMessage req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "product3")] HttpRequestMessage req,
             ILogger log)
         {
-            log.LogInformation("Test response for GetProducts2 function.");
+            log.LogInformation("Test response for GetProducts function2.");
 
             // Return a simple test response
             var testProducts = new[]
