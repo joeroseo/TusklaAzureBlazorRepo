@@ -1,0 +1,1809 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\obj\\Debug\\net6.0\\compressed\\w3e1gzbdh4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TusklaBlazor.Client.styles.css",
+      "PackagePath": "staticwebassets\\TusklaBlazor.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\AutoPilot.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\AutoPilot.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\BootStrapMenu.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\BootStrapMenu.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\Charging.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\Charging.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\CustomerFAQs.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\CustomerFAQs.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\MasterPlan.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\MasterPlan.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\OneMenu_Nav.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\OneMenu_Nav.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\Ordering.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\Ordering.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\Template.txt",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\Template.txt"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\Warranty.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\Warranty.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\WarrantyBk.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\WarrantyBk.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\navmenu KeepWithArrows.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\navmenu KeepWithArrows.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\BkUp\\navmenu.html",
+      "PackagePath": "staticwebassets\\docs\\BkUp\\navmenu.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Charging.docx",
+      "PackagePath": "staticwebassets\\docs\\Charging.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Charging.htm",
+      "PackagePath": "staticwebassets\\docs\\Charging.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Charging.html",
+      "PackagePath": "staticwebassets\\docs\\Charging.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Charging_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\Charging_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Charging_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\Charging_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Charging_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\Charging_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Contact_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\Contact_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Contact_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\Contact_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Contact_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\Contact_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Contacts.html",
+      "PackagePath": "staticwebassets\\docs\\Contacts.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\CorporateInfo.html",
+      "PackagePath": "staticwebassets\\docs\\CorporateInfo.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\CorporateInfo_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\CorporateInfo_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\CorporateInfo_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\CorporateInfo_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\CorporateInfo_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\CorporateInfo_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\FAQs.html",
+      "PackagePath": "staticwebassets\\docs\\FAQs.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\FAQs_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\FAQs_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\FAQs_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\FAQs_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\FAQs_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\FAQs_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Financial.html",
+      "PackagePath": "staticwebassets\\docs\\Financial.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\MasterPlan.html",
+      "PackagePath": "staticwebassets\\docs\\MasterPlan.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\MasterPlan_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\MasterPlan_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\MasterPlan_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\MasterPlan_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\MasterPlan_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\MasterPlan_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Ordering.html",
+      "PackagePath": "staticwebassets\\docs\\Ordering.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Ordering_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\Ordering_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Ordering_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\Ordering_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Ordering_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\Ordering_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Saftey.html",
+      "PackagePath": "staticwebassets\\docs\\Saftey.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Template.txt",
+      "PackagePath": "staticwebassets\\docs\\Template.txt"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\WallCharging.html",
+      "PackagePath": "staticwebassets\\docs\\WallCharging.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Warranty - Copy.html",
+      "PackagePath": "staticwebassets\\docs\\Warranty - Copy.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Warranty.html",
+      "PackagePath": "staticwebassets\\docs\\Warranty.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Warranty_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\docs\\Warranty_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Warranty_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\docs\\Warranty_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\docs\\Warranty_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\docs\\Warranty_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\other\\Black-modified.png",
+      "PackagePath": "staticwebassets\\img\\other\\Black-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\other\\Blue-modified.png",
+      "PackagePath": "staticwebassets\\img\\other\\Blue-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\other\\Pearl-modified.png",
+      "PackagePath": "staticwebassets\\img\\other\\Pearl-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\other\\Red-modified.png",
+      "PackagePath": "staticwebassets\\img\\other\\Red-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\other\\Silver-modified.png",
+      "PackagePath": "staticwebassets\\img\\other\\Silver-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\other\\Tuskla.jpg",
+      "PackagePath": "staticwebassets\\img\\other\\Tuskla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Car Cover.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Car Cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Carbon Filber Spoiled.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Carbon Filber Spoiled.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\CargoMats.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\CargoMats.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Center Console Trays.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Center Console Trays.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Glass Sunshade.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Glass Sunshade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Hitch Rack.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Hitch Rack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Key Card.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Key Card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Key Fob.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Key Fob.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Mud Flaps.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Mud Flaps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Pedal Set.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Pedal Set.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Pet-Liner.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Pet-Liner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Rims19.png",
+      "PackagePath": "staticwebassets\\img\\uploads\\Rims19.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Roof Sunshade.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Roof Sunshade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\RoofRack.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\RoofRack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Snow Chains.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Snow Chains.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Tire Repair Kit.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Tire Repair Kit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\TrunkLiner.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\TrunkLiner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\uploads\\Wheel Locks.jpg",
+      "PackagePath": "staticwebassets\\img\\uploads\\Wheel Locks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\5SeatUnselected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\5SeatUnselected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\5seatSelected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\5seatSelected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\6seatSelected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\6seatSelected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\6seatUnselected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\6seatUnselected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\7seatSelected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\7seatSelected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\7seatUnselected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\7seatUnselected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\AutoPilot.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\AutoPilot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Black-modified.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Black-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Blue-modified.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Blue-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Charging_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Charging_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\EnhancedAutopilot - Copy.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\EnhancedAutopilot - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\EnhancedAutopilot.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\EnhancedAutopilot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\FullSelfDriving.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\FullSelfDriving.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings2.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings2.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings2_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings2_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings2_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings2_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings2_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings2_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings2_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings2_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\GasSavings2_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\GasSavings2_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings2.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings2.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings2_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings2_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings2_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings2_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings2_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings2_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings2_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings2_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Charging_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Charging_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Model3Interior.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Model3Interior.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\Model3Interior_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Gas_Savings_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Gas_Savings_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\InteriorBlack.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\InteriorBlack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\InteriorBlackButton.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\InteriorBlackButton.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\InteriorCream.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\InteriorCream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\InteriorCreamButton.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\InteriorCreamButton.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\InteriorWhite.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\InteriorWhite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\InteriorWhiteButton.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\InteriorWhiteButton.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Interior_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Interior_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Master.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Master.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\MobileConnector.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\MobileConnector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Paint_Master.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Paint_Master.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Pearl-modified.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Pearl-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Pricing.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Pricing.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Pricing.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Pricing.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Pricing_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Pricing_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Pricing_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Pricing_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Pricing_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Pricing_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Red-modified.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Red-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims18.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims18.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims18Black.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims18Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims18Blue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims18Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims18Pearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims18Pearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims18Red.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims18Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims18Silver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims18Silver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims19.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims19.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims19Black.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims19Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims19Blue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims19Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims19Pearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims19Pearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims19Red.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims19Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims19Silver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims19Silver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims20.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims20.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims20Black.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims20Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims20Blue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims20Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims20Pearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims20Pearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims20Red.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims20Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims20Silver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims20Silver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims21.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims21.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims21Black.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims21Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims21Blue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims21Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims21Pearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims21Pearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims21Red.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims21Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims21Silver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims21Silver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims22Black.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims22Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims22Blue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims22Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims22Pearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims22Pearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims22Red.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims22Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Rims22Silver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Rims22Silver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\RimsTires_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\RimsTires_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatButtons.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatButtons.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatIcos\\5SeatUnselected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatIcos\\5SeatUnselected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatIcos\\5seatSelected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatIcos\\5seatSelected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatIcos\\6seatSelected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatIcos\\6seatSelected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatIcos\\6seatUnselected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatIcos\\6seatUnselected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatIcos\\7seatSeled.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatIcos\\7seatSeled.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SeatIcos\\7seatUnselected.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SeatIcos\\7seatUnselected.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Seating_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Seating_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Silver-modified.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Silver-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SteeringRegular.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SteeringRegular.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SteeringRegularImage.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SteeringRegularImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SteeringYoke.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SteeringYoke.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\SteeringYokeImage.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\SteeringYokeImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\Tuskla.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\Tuskla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\WallConnector.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\WallConnector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Black.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Blue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image005.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image005.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image006.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image006.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image007.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image007.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image008.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image008.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image009.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image009.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image010.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image010.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image011.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image011.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\image012.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\image012.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Features_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Features_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Interior_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Interior_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\image005.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\image005.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\image006.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\image006.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Pricing_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Pricing_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Red.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3RimsTires_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3RimsTires_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3Silver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3Silver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\model3b.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\model3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSBlack.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSBlack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSBlue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSBlue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image005.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image005.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image006.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image006.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image007.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image007.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image008.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image008.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image009.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image009.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image010.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image010.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image011.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image011.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\image012.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\image012.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSFeatures_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSFeatures_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSInterior_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSInterior_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSPricing_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSPricing_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSRed.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSRed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelSSilver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelSSilver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXBlack.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXBlack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXBlue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXBlue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image005.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image005.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image006.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image006.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image007.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image007.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image008.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image008.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image009.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image009.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image010.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image010.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image011.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image011.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image012.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image012.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image013.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image013.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\image014.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\image014.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXFeatures_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXFeatures_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXInterior_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXInterior_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXPricing_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXPricing_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXRed.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXRed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSeating_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSeating_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelXSilver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelXSilver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYBlack.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYBlack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYBlue.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYBlue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image005.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image005.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image006.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image006.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image007.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image007.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image008.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image008.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image009.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image009.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image010.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image010.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image011.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image011.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image012.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image012.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image013.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image013.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image014.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image014.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image015.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image015.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image016.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image016.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image017.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image017.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image018.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image018.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image019.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image019.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image020.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image020.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\image021.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\image021.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYFeatures_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYFeatures_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYInterior_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYInterior_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPearl.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPearl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\image003.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\image003.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\image004.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\image004.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\image005.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\image005.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\image006.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\image006.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYPricing_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYPricing_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYRed.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYRed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating.htm",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating.htm"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating_files\\colorschememapping.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating_files\\colorschememapping.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating_files\\filelist.xml",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating_files\\filelist.xml"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating_files\\image001.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating_files\\image001.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating_files\\image002.png",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating_files\\image002.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSeating_files\\themedata.thmx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSeating_files\\themedata.thmx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\modelYSilver.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicles\\modelYSilver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\~$atButtons.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\~$atButtons.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\img\\vehicles\\~$eating.docx",
+      "PackagePath": "staticwebassets\\img\\vehicles\\~$eating.docx"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\staticwebapp.config.json",
+      "PackagePath": "staticwebassets\\staticwebapp.config.json"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Car_Cover.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Car_Cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Carbon Filber Spoiled.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Carbon Filber Spoiled.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\CargoMats.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CargoMats.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Center Console Trays.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Center Console Trays.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Glass Sunshade.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Glass Sunshade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Hitch Rack.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Hitch Rack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Key Card.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Key Card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Key Fob.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Key Fob.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Mud Flaps.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Mud Flaps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Pedal Set.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Pedal Set.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Pet-Liner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Pet-Liner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Rims19.png",
+      "PackagePath": "staticwebassets\\uploads\\Rims19.png"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Roof Sunshade.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Roof Sunshade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\RoofRack.jpg",
+      "PackagePath": "staticwebassets\\uploads\\RoofRack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Snow Chains.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Snow Chains.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Tire Repair Kit.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Tire Repair Kit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\TrunkLiner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrunkLiner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\uploads\\Wheel Locks.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Wheel Locks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joero\\source\\repos\\TusklaAzureBlazorNewGood1\\Client\\wwwroot\\videos\\Tesla.mp4",
+      "PackagePath": "staticwebassets\\videos\\Tesla.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TusklaBlazor.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TusklaBlazor.Client.props",
+      "PackagePath": "build\\TusklaBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TusklaBlazor.Client.props",
+      "PackagePath": "buildMultiTargeting\\TusklaBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TusklaBlazor.Client.props",
+      "PackagePath": "buildTransitive\\TusklaBlazor.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

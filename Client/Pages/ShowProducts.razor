@@ -1,0 +1,94 @@
+@using TusklaBlazor.Shared.Models 
+@using TusklaBlazor.Shared.Services
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+@inject CartService CartService
+@page "/showproducts"
+
+<div class="flex-container">
+    @if (errorMessage != null)
+    {
+        <div class="error-message">@errorMessage</div>
+    }
+    else if (products.Any())
+    {
+        <h4>Products</h4>
+        <div class="image-container">
+            @foreach (var product in products)
+            {
+                <div class="image-item">
+                    <img src="@product.imageSource" alt="@($"Image of {product.Name}")" style="max-width: 200px; max-height: 200px; margin-bottom: 10px;" />
+                    <div>@product.Name</div>
+                    <div>@product.Price.ToString("C0")</div>
+                    <div><button @onclick="() => AddProduct(product)" aria-label="Add @product.Name to cart">Add to Cart</button></div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>Loading products...</p>
+    }
+</div>
+
+@code {
+    private List<Product> products = new();
+    private string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await GetProductData();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing ShowProduct component: {ex.Message}");
+        }
+    }
+
+    private async Task GetProductData()
+    {
+        try
+        {
+            products = await HttpClient.GetFromJsonAsync<List<Product>>("api/product");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Failed to load products. Please try again later.";
+            Console.Error.WriteLine($"Error fetching products: {ex.Message}");
+        }
+    }
+
+    private void AddProduct(Product product)
+    {
+        CartService.AddToCart(product);
+    }
+}
+
+<style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .image-item {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #d3d3d3;
+        border-radius: 8px;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .image-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .error-message {
+        color: red;
+        text-align: center;
+    }
+</style>

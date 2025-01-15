@@ -1,0 +1,133 @@
+@page "/showmodal/{doctype}"
+@using TusklaBlazor.Shared.Models;
+@using Blazored.LocalStorage
+@inject ILocalStorageService LocalStorage
+@inject IItemListService ItemListService
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using System.Text.Json;
+
+<div class="vue-modal" style="display: @(open ? "block" : "none")">
+    <div class="vue-modal-inner">
+        <div class="vue-modal-content">
+            @if (doctype == "model3Pricing")
+            {
+                <iframe src="../img/vehicles/model3Pricing.htm" style="width: 100%; height: 350px;"></iframe>
+            }
+            else if (doctype == "modelYPricing")
+            {
+                <iframe src="../img/vehicles/modelYPricing.htm" style="width: 100%; height: 350px;"></iframe>
+            }
+            else if (doctype == "modelXPricing")
+            {
+                <iframe src="../img/vehicles/modelXPricing.htm" style="width: 100%; height: 350px;"></iframe>
+            }
+            else if (doctype == "modelSPricing")
+            {
+                <iframe src="../img/vehicles/modelSPricing.htm" style="width: 100%; height: 350px;"></iframe>
+            }
+            else if (doctype == "GasSavings")
+            {
+                <iframe src="../img/vehicles/GasSavings2.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "model3Features")
+            {
+                <iframe src="../img/vehicles/model3Features.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "modelYFeatures")
+            {
+                <iframe src="../img/vehicles/modelYFeatures.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "modelXFeatures")
+            {
+                <iframe src="../img/vehicles/modelXFeatures.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "modelSFeatures")
+            {
+                <iframe src="../img/vehicles/modelSFeatures.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Interior")
+            {
+                <iframe src="../img/vehicles/Interior.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "RimsTires")
+            {
+                <iframe src="../img/vehicles/RimsTires.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Seating")
+            {
+                <iframe src="../img/vehicles/Seating.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Charging")
+            {
+                <iframe src="../img/vehicles/Charging.htm" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "FAQ")
+            {
+                <iframe src="../docs/FAQs.html" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Contact")
+            {
+                <iframe src="../docs/Contacts.html" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Ordering")
+            {
+                <iframe src="../docs/Ordering.html" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Warranty")
+            {
+                <iframe src="../docs/Warranty.html" style="width: 80%; height: 350px;"></iframe>
+            }
+            else if (doctype == "Corporate")
+            {
+                <iframe src="../docs/CorporateInfo.html" style="width: 80%; height: 350px;"></iframe>
+            }
+            <button type="button" @onclick="Close">Close</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool open = true;
+
+    private async Task Close()
+    {
+        open = false;
+        await JSRuntime.InvokeVoidAsync("closeModalAndNavigateBack");
+    }
+
+    [Parameter]
+    public string doctype { get; set; }
+
+    [Inject]
+    public IJSRuntime JSRuntime { get; set; }
+}
+
+<style>
+    .vue-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+    }
+
+    .vue-modal-inner {
+        max-width: 800px;
+        margin: 2rem auto;
+    }
+
+    .vue-modal-content {
+        position: relative;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-clip: padding-box;
+        border-radius: 0.3rem;
+        padding: 1rem;
+    }
+</style>
+

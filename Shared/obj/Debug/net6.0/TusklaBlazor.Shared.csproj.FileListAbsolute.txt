@@ -1,0 +1,114 @@
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood2\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazor\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazor\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazor\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazor\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood5\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorkingGood14\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.sourcelink.json
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.sourcelink.json
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorking - Copy\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaBlazorWorking\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazor - New2\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\api\bin\output\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\api\bin\output\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\api\bin\output\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.sourcelink.json
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazorNew\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.deps.json
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\bin\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.AssemblyReference.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\ref\TusklaBlazor.Shared.dll

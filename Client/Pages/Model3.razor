@@ -1,0 +1,827 @@
+﻿<!-- //Model3.razor -->
+@page "/model3"
+
+@using TusklaBlazor.Shared.Models;
+
+@using Blazored.LocalStorage
+@inject ILocalStorageService LocalStorage
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using System.Text.Json;
+
+<div class="flex-container-main">
+    <div class="flex-container1" style="gap: 10px;">
+        <div class="flex-child1">
+
+            <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center;">
+                <p style="text-align: center;">
+                    <h4>$7,500 Federal Tax Credit Not Available</h4>
+                </p>
+                <br />
+            </div>
+            <div class="flex-container_img">
+                <img src="@vehicleImageSrc" style="transform: scale(.75); " />
+            </div>
+            <!-- Go to showmodal passing doctype as -->
+            <br /><br /><br />
+            <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <a href="/showmodal/model3Features">
+                    <i><u>Model Features</u></i>
+                </a>
+            </div>
+            <br />
+            <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <h5> Paint Color </h5>
+                <div style="margin-top: 5px; display: flex; align-items: center; justify-content: center; ">
+                    @foreach (var color in paintColors)
+                    {
+                        <img src="@($"../..//img/other/{color}-modified.png")" @onclick="(() => PickPaint(color))" style="width: 8%; height: 8%; margin-right: 10px;" />
+                    }
+                </div>
+                <br />
+                <p style="margin-top: 5px; margin-bottom: 5px;"> <h5> @paintDescription - Plus @paintCost </h5> </p>
+                <br />
+                <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center; flex-direction: row;">
+                    <h5> Rims </h5><br />
+                </div>
+                <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center; flex-direction: row;">
+                    <br />
+                    <img src="@rimsImageSrc" style="margin-top: 5px; margin-right: 15px; margin-bottom: 5px; width: 25%; height: 25%" />
+                    @foreach (var rim in rimsOptions)
+                    {
+                        <img src="@($"../..//img/vehicles/Rims{rim}.png")" style="width: 9%; height: 15%; margin-right: 20px; margin-top: 65px" @onclick="(() => RimsSelect(rim))" />
+                    }
+                    <br />
+                </div>
+                <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center; flex-direction: row;">
+                    <p style="margin-top: 5px; margin-bottom: 5px;"> <h5> @rimDescription Plus @rimCost </h5> </p>
+                </div>
+                <div style="margin-top: -2px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <a href="/showmodal/RimsTires">
+                        <i><u>Rim Features</u></i>
+                    </a>
+                </div><br />
+                <h5> Interior </h5>
+                <div style="margin-top: 15px; display: flex; align-items: center; justify-content: center; flex-direction: row;">
+                    <br />
+                    <img src="@interiorImageSrc" style="margin-top: 5px; margin-right: 15px; margin-bottom: 15px; width: 25%; height: 25%" />
+                    @foreach (var interior in interiorOptions)
+                    {
+                        <img src="@($"../..//img/vehicles/Interior{interior}Button.png")" style="width: 9%; height: 15%; margin-right: 20px; margin-top: 65px" @onclick="(() => InteriorSelect(interior))" />
+                    }
+                    <br /><br />
+                </div>
+                <p style="margin-top: 15px; margin-bottom: 5px;"> <h5> @interiorDescription Plus @interiorCost </h5> </p>
+                <div style="margin-top: -2px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <a href="/showmodal/Interior">
+                        <i><u>Interior Features</u></i>
+                    </a>
+                </div><br />
+                <br />
+                <h5> Charging </h5>
+                <p style="margin-top: -8px;"> Home charging equipment is not included</p>
+                <div style="text-align: center;">
+                    <img src="../../img/vehicles/charging.jpg" style="width: 75%;">
+                </div>
+                <div style="margin-top: -2px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <a href="/showmodal/Charging">
+                        <i><u>Charging Features</u></i>
+                    </a>
+                </div>
+                <div>
+                    <br />
+                    <input type="checkbox" id="wallCharger" name="wallCharger" @bind="wallCharger" @onclick="SetWallCharger" />
+                    <label for="wallCharger"> &nbsp Wall Charger $475</label>
+                    <br />
+                    <input type="checkbox" id="mobileCharger" name="mobileCharger" @bind="mobileCharger" @onclick="SetMobileCharger" />
+                    <label for="mobileCharger"> &nbsp Mobile Charger $230</label>
+                </div>
+                <br /><br /><br />
+                <button @onclick="Order" class="btn btn-primary" style=" margin-top:-15px;">Order Now</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container2" style="gap: 10px;">
+        <div class="flex-child2" style="margin-right: 10px;">
+            <div style="margin-top: 5px; display: flex; align-items: center; justify-content: center;">
+                <p style="text-align: center;">
+                    <strong> <h4 style="margin-top: 10px; ">Model 3 @type  </h4> </strong>
+                    <strong> <h5 style="margin-top: 10px; ">Est. Delivery: @delivery_date  </h5> </strong>
+                </p>
+            </div>
+            <br />
+            <table class="table  mt-42 is-fullwidth" style=" margin: auto">
+                <thead>
+                    <tr>
+                        <th>Range (EPA est.)</th>
+                        <th>Top Speed</th>
+                        <th>0-60 mph</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@range</td>
+                        <td>@speed</td>
+                        <td>@accel</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <div class="button-group" id="group1" style="display: flex; justify-content:center">
+                @foreach (var button in buttonsGroup1)
+                {
+                    <button @onclick="(() => HandleButtonClick(button, buttonsGroup1))"
+                            class="btn btn-sm button highlightable-button @(button.highlighted ? "highlight pop-out" : "")">
+                        @button.label
+                    </button>
+                }
+            </div>
+            <br />
+            <div>
+                <table class="table mt-42 is-fullwidth" style=" margin: auto">
+                    <thead>
+                        <tr>
+                            <th>Purchase Price</th>
+                            <th>Loan Price</th>
+                            <th>Lease Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@pPrice</td>
+                            <td>@loanPrice</td>
+                            <td>@leasePrice</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <div class="button-group" id="group2" style="display: flex; justify-content:center">
+                    @foreach (var button in buttonsGroup2)
+                    {
+                        <button @onclick="(() => HandleButtonClick(button, buttonsGroup2))"
+                                class="btn btn-sm button highlightable-button @(button.highlighted ? "highlight pop-out" : "")">
+                            @button.label
+                        </button>
+                    }
+                </div>
+                <div style="margin-top: 12px; display: flex; align-items: center; justify-content: center; flex-direction: row;">
+                    <a href="/showmodal/model3Pricing"><i>Pricing</i></a>
+                    &nbsp; &nbsp;
+                    <a href="/showmodal/GasSavings"><i>Gas Savings</i></a>
+                </div>
+            </div>
+            <br /><br />
+            <br>
+            <div style="margin-top: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <h5> AutoPilot </h5>
+                <img src="../../img/vehicles/AutoPilot.jpg"
+                     style="margin-top: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 80%; ">
+                <br>
+                <p> $6,000 </p>
+                <div>
+                    <div class="bullet-list1">
+                        <ul style="padding: 0; margin: 0; list-style-type:disc;">
+                            <li>Navigate on Autopilot</li>
+                            <li>Auto Lane Change</li>
+                            <li>Autopark</li>
+                            <li>Summon</li>
+                            <li>Smart Summon</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <input type="checkbox" id="autoPilot" name="autoPilot" @bind="autoPilot" @onclick="SetAutoPilot" />
+                <label for="autoPilot"> &nbsp Add AutoPilot </label>
+                <br>
+                <br>
+                <h5> Full Self Driving </h5>
+                <br>
+                <p> $12,000 </p>
+                <div class="bullet-list1">
+                    <ul style="padding: 0; margin: 0; list-style-type:disc;">
+                        <li>All functionality of Autopilot </li>
+                        <li>Traffic Light/Stop Sign Control</li>
+                        <li>Autopark</li>
+                        <li>Summon</li>
+                        <li>Soon - Autosteer on city streets</li>
+                    </ul>
+                </div>
+                <br>
+                <input type="checkbox" id="fsd" name="fsd" @bind="fsd" @onclick="SetFSD" />
+                <label for="fsd"> &nbsp Add Full Self Driving </label>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    // Vehicle details
+    string type = "Standard";
+    string delivery_date = "";
+    string range = "272 miles";
+    string speed = "125 mph";
+    string accel = "5.8 sec";
+    string pPrice = "$38,990";
+    string loanPrice = "$605";
+    string leasePrice = "$329";
+    string vehicleCost = "$38,990";
+    string vehicleDescription = "Model 3 Standard";
+
+    //Vehicle Pricing
+    string StandardpPriceNoSavings = "$38,990";
+    string StandardloanPriceNoSavings = "$605";
+    string StandardleasePriceNoSavings = "$329";
+
+    string LongRangepPriceNoSavings = "$47,740";
+    string LongRangeloanPriceNoSavings = "$752";
+    string LongRangeleasePriceNoSavings = "$469";
+
+    string StandardpPriceSavings = "$35,990";
+    string StandardloanPriceSavings = "$522";
+    string StandardleasePriceSavings = "$246";
+
+    string LongRangepPriceSavings = "$44,740";
+    string LongRangeloanPriceSavings = "$669";
+    string LongRangeleasePriceSavings = "$386";
+
+    // Paint color options
+    List<string> paintColors = new List<string> { "Silver", "Blue", "Red", "Black", "Pearl" };
+    string selectedPaint = "Silver";
+    string paintCost = "$0";
+    string paintDescription = "Midnight Silver Metallic";
+
+    // Vehicle images initial
+    string vehicleImageSrc = "/img/vehicles/model3Silver.jpg";
+    string interiorImageSrc = "/img/vehicles/InteriorBlack.jpg";
+    string rimsImageSrc = "/img/vehicles/Rims18Silver.jpg";
+
+    // Rims options
+    List<string> rimsOptions = new List<string> { "18", "19" };
+    string rimDescription = "18inch Aero Wheels";
+    string rim = "18";
+    string rimCost = "$0";
+
+    // Interior options
+    List<string> interiorOptions = new List<string> { "Black", "White" };
+    string selectedInterior = "Black";
+    string interiorDescription = "Black Interior";
+    string interiorCost = "$0";
+
+    // Charging options
+    bool wallCharger { get; set; } = false;
+    string wallChargerCost { get; set; } = "0";
+    string wallChargerDescription { get; set; } = "Wall Charger Not Ordered";
+    bool mobileCharger { get; set; } = false;
+    string mobileChargerCost { get; set; } = "0";
+    string mobileChargerDescription { get; set; } = "Mobile Charger Not Ordered";
+
+    //AutoPilot options
+    bool autoPilot { get; set; } = false;
+    string autoPilotCost { get; set; } = "0";
+    string autoPilotDescription { get; set; } = "AutoPilot Not Ordered";
+
+    //Full Self Driving options
+    bool fsd = false;
+    string fsdCost { get; set; } = "0";
+    string fsdDescription { get; set; } = "FSD Not Ordered";
+
+    // Modal variables
+    bool isOpen = false;
+    string doctype = "";
+
+    // Button groups
+    List<ButtonInfo> buttonsGroup1 = new List<ButtonInfo>
+    {
+        new ButtonInfo { label = "Standard", highlighted = true },
+        new ButtonInfo { label = "Long Range", highlighted = false },
+    };
+
+    List<ButtonInfo> buttonsGroup2 = new List<ButtonInfo>
+    {
+        new ButtonInfo { label = "Without Savings", highlighted = true },
+        new ButtonInfo { label = "With Savings", highlighted = false },
+    };
+
+    // Methods
+
+    //Pick vehicle
+
+    void HandleButtonClick(ButtonInfo button, List<ButtonInfo> buttonGroup)
+    {
+        foreach (var btn in buttonGroup)
+        {
+            btn.highlighted = false;
+        }
+        button.highlighted = true;
+
+        // Handle button click logic based on the selected button
+        // You can access button.label for the selected button label
+
+        //Button Group 1 (Standard, Long Range, Performance)
+
+        //Without Savings
+        //Model3 Standard
+        if (buttonGroup == buttonsGroup1 && button.label == "Standard" && buttonsGroup2[0].highlighted)
+        {
+            pPrice = StandardpPriceNoSavings;
+            loanPrice = StandardloanPriceNoSavings;
+            leasePrice = StandardleasePriceNoSavings;
+        }
+        //Model3 Long Range
+        else if (buttonGroup == buttonsGroup1 && button.label == "Long Range" && buttonsGroup2[0].highlighted)
+        {
+            pPrice = LongRangepPriceNoSavings;
+            loanPrice = LongRangeloanPriceNoSavings;
+            leasePrice = LongRangeleasePriceNoSavings;
+        }
+
+        //With Savings
+
+        //Model3 Standard with savings
+        if (buttonGroup == buttonsGroup1 && button.label == "Standard" && buttonsGroup2[1].highlighted)
+        {
+            pPrice = StandardpPriceSavings;
+            loanPrice = StandardloanPriceSavings;
+            leasePrice = StandardleasePriceSavings;
+        }
+        
+        //Model3 Long Range with savings
+        else if (buttonGroup == buttonsGroup1 && button.label == "Long Range" && buttonsGroup2[1].highlighted)
+        {
+            pPrice = LongRangepPriceSavings;
+            loanPrice = LongRangeloanPriceSavings;
+            leasePrice = LongRangeleasePriceSavings;
+        }
+
+        //Button Group 2 (Without Savings)
+
+        //Model3 Standard
+        if (buttonGroup == buttonsGroup2 && button.label == "Without Savings" && buttonsGroup1[0].highlighted)
+        {
+            pPrice = StandardpPriceNoSavings;
+            loanPrice = StandardloanPriceNoSavings;
+            leasePrice = StandardleasePriceNoSavings;
+        }
+
+        //Model3 Long Range
+        if (buttonGroup == buttonsGroup2 && button.label == "Without Savings" && buttonsGroup1[1].highlighted)
+        {
+            pPrice = LongRangepPriceNoSavings;
+            loanPrice = LongRangeloanPriceNoSavings;
+            leasePrice = LongRangeleasePriceNoSavings;
+        }
+
+        //Button Group 2 (With Savings)
+
+        //Model3 Standard with savings
+        if (buttonGroup == buttonsGroup2 && button.label == "With Savings" && buttonsGroup1[0].highlighted)
+        {
+            pPrice = StandardpPriceSavings;
+            loanPrice = StandardloanPriceSavings;
+            leasePrice = StandardleasePriceSavings;
+        }
+
+        //Model3 Long Range with savings
+        if (buttonGroup == buttonsGroup2 && button.label == "With Savings" && buttonsGroup1[1].highlighted)
+        {
+            pPrice = LongRangepPriceSavings;
+            loanPrice = LongRangeloanPriceSavings;
+            leasePrice = LongRangeleasePriceSavings;
+        }
+
+        //Model 3 Standard selected
+        if (buttonsGroup1[0].highlighted)
+        {
+            vehicleCost = "$38,990";
+            vehicleDescription = "Model 3 Standard";
+            range = "272 miles";
+            speed = "125 mph";
+            accel = "5.8 sec";
+        }
+
+        //Model 3 Long Range selected
+        else if (buttonsGroup1[1].highlighted)
+        {
+            vehicleCost = "$47,740";
+            vehicleDescription = "Model 3 Long Range";
+            range = "321 miles";
+            speed = "125 mph";
+            accel = "4.2 sec";
+        }
+
+    }
+
+    //Pick paint
+    void PickPaint(string color)
+    {
+        selectedPaint = color;
+        if (color == "Pearl")
+        {
+            paintCost = "$1,000";
+            paintDescription = "Pearl White Multi-Coat";
+        }
+        else if (color == "Red")
+        {
+            paintCost = "$2000";
+            paintDescription = "Red Multi-Coat";
+        }
+        if (color == "Silver")
+        {
+            paintCost = "$0";
+            paintDescription = "Midnight Silver Metallic";
+        }
+        else if (color == "Blue")
+        {
+            paintCost = "$1000";
+            paintDescription = "Deep Blue Metallic";
+        }
+        else if (color == "Black")
+        {
+            paintCost = "$1500";
+            paintDescription = "Solid Black";
+        }
+        rimsImageSrc = "/img/vehicles/Rims" + rim + selectedPaint + ".jpg";
+        vehicleImageSrc = "/img/vehicles/model3" + selectedPaint + ".jpg";
+    }
+
+    void RimsSelect(string rim)
+    {
+        if (rim == "18")
+        {
+            rimCost = "$0";
+            rimDescription = "18inch Aero Wheels";
+        }
+        else if (rim == "19")
+        {
+            rimCost = "$1,500";
+            rimDescription = "19inch Sport Wheels";
+        }
+        rimsImageSrc = "/img/vehicles/Rims" + rim + selectedPaint + ".jpg";
+    }
+
+    void InteriorSelect(string interior)
+    {
+        selectedInterior = interior;
+        interiorImageSrc = "/img/vehicles/Interior" + interior + ".jpg";
+        if (interior == "Black")
+        {
+            interiorCost = "$0";
+            interiorDescription = "Black Interior";
+
+        }
+        else if (interior == "White")
+        {
+            interiorCost = "$1000";
+            interiorDescription = "White and Black Interior";
+        }
+    }
+
+    void SetWallCharger()
+    {
+        if (!wallCharger)
+        {
+            wallChargerCost = "475";
+            wallChargerDescription = "Wall Charger Ordered";
+        }
+        else
+        {
+            wallChargerCost = "0";
+            wallChargerDescription = "Wall Charger Not Ordered";
+        }
+        StateHasChanged();
+
+    }
+
+    void SetMobileCharger()
+    {
+        if (!mobileCharger)
+        {
+            mobileChargerCost = "230";
+            mobileChargerDescription = "Mobile Charger Ordered";
+        }
+        else
+        {
+            mobileChargerCost = "0";
+            mobileChargerDescription = "Mobile Charger Not Ordered";
+        }
+        StateHasChanged();
+    }
+
+    void SetAutoPilot()
+    {
+        if (!autoPilot)
+        {
+            if (fsdCost == "0")
+            {
+                autoPilotCost = "6000";
+                autoPilotDescription = "AutoPilot Ordered";
+            }
+            else
+            {
+                autoPilotCost = "0";
+                autoPilotDescription = "AutoPilot Included with Full Self Driving";
+                autoPilot = false;
+            }
+        }
+        else
+        {
+            autoPilotCost = "0";
+            autoPilotDescription = "AutoPilot Not Ordered";
+        }
+        StateHasChanged();
+    }
+
+    void SetFSD()
+    {
+        if (!fsd)
+        {
+            fsdCost = "12000";
+            fsdDescription = "Full Self Driving Ordered";
+            if (autoPilotCost == "6000")
+            {
+                autoPilotCost = "0";
+                autoPilotDescription = "AutoPilot included with Full Self Driving";
+                autoPilot = false;
+            }
+        }
+        else
+        {
+            fsdCost = "0";
+            fsdDescription = "AutoPilot Not Ordered";
+        }
+        StateHasChanged();
+    }
+
+    void OpenModal(string type)
+    {
+        isOpen = true;
+        doctype = type;
+    }
+
+    // ButtonInfo class
+    public class ButtonInfo
+    {
+        public string label { get; set; }
+        public bool highlighted { get; set; }
+    }
+
+    // Override OnInitialized lifecycle method
+
+    List<Item> itemList = new List<Item>();
+
+    private string SerializeItemList(List<Item> itemList)
+    {
+        return JsonSerializer.Serialize(itemList);
+    }
+
+    // AddToItemList method
+    private async Task AddToItemList()
+    {
+        itemList.Clear();
+
+        // Define the descriptions and costs in arrays
+        string[] descriptions = { vehicleDescription, paintDescription, rimDescription, interiorDescription, wallChargerDescription, mobileChargerDescription, autoPilotDescription, fsdDescription };
+        string[] costs = { vehicleCost, paintCost, rimCost, interiorCost, wallChargerCost, mobileChargerCost, autoPilotCost, fsdCost };
+
+        // Iterate through the arrays and add items to the list
+        for (int i = 0; i < descriptions.Length; i++)
+        {
+            itemList.Add(new Item
+                {
+                    Description = descriptions[i],
+                    Price = ParseCost(costs[i])
+                });
+        }
+
+        // Serialize itemList using the helper method
+        string serializedItemList = SerializeItemList(itemList);
+
+        await LocalStorage.SetItemAsStringAsync("itemList", serializedItemList);
+
+        // Set showItemList to true to display the list
+    }
+
+    // Helper method to parse the cost string into a decimal
+    private decimal ParseCost(string costString)
+    {
+        // Remove "$" sign and convert to decimal
+        return decimal.Parse(costString.Replace("$", "").Replace(",", ""));
+    }
+
+    private async Task Order()
+    {
+        // Implement your order logic
+        // You can access selectedPaint, selectedRim, selectedInterior, wallCharger, mobileCharger for the selected options
+
+        await LocalStorage.ClearAsync();
+
+        await AddToItemList();
+
+        // Navigate to the ShowItems page
+        NavigationManager.NavigateTo("/showitems");
+    }
+
+    static void SetDeliveryDate(ref string delivery_date)
+    {
+        // Get the current date
+        DateTime currentDate = DateTime.Now;
+
+        // Add 2 months to the current date
+        DateTime deliveryDate = currentDate.AddMonths(2);
+
+        // Format the delivery date as "Month Year" string
+        delivery_date = deliveryDate.ToString("MMMM yyyy");
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        // Call the SetDeliveryDate method to update the delivery_date variable
+        SetDeliveryDate(ref delivery_date);
+    }
+}
+
+<style scoped>
+    .flex-container-main {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        height: 250vh;
+        overflow: hidden;
+        margin: 10px;
+        padding: 0;
+        background-color: white;
+        border: none;
+    }
+
+    .flex-container1,
+    .flex-container2 {
+        flex: 0 0 45%; /* Set the flex-basis to control the initial size */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 250vh;
+        overflow: hidden;
+        margin: 10px;
+        padding: 0;
+        background-color: white;
+        box-sizing: border-box; /* Include padding and border in the total width */
+    }
+
+    .flex-container1 {
+        border: none;
+    }
+
+    .flex-container2 {
+        border: none;
+    }
+
+    .flex-child1 {
+        display: flex margin: 0; /* Reset margin to remove any unwanted space */
+        padding: 0; /* Reset padding to remove any unwanted space */
+        height: 10vh;
+        width: 90vh;
+        border: none;
+    }
+
+    .flex-child2 {
+        display: flex-column;
+        margin: 0; /* Reset margin to remove any unwanted space */
+        padding: 0; /* Reset padding to remove any unwanted space */
+        height: 200vh;
+        width: 90vh;
+        border: none;
+    }
+
+    .flex-container_img {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: flex-start; /* Align to the start vertically */
+        width: 450px;
+        height: 150px;
+        object-fit: contain;
+        margin: 0;
+        border: none;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .list {
+        text-align: left;
+        max-width: 750px;
+        margin: 10px;
+        margin-bottom: 0.1em;
+        margin-top: 0.1em;
+    }
+
+    p {
+        margin-bottom: 0.1em;
+        margin-top: 0.1em;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 0.1em;
+        margin-top: 0.1em;
+        font-size: 14px;
+    }
+
+    table {
+        margin: 10px;
+        font-size: 14px;
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        border: none;
+    }
+
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh; /* Adjust this value based on your needs */
+        border: 0;
+    }
+
+    .options1 {
+        text-align: center;
+    }
+
+    .button-group {
+        display: flex;
+    }
+
+    .highlightable-button {
+        padding: 5px 8px;
+        background-color: #e0e0e0;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+        .highlightable-button.highlight {
+            border: 0.5px solid black;
+        }
+
+    .bullet-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .bullet-list ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .bullet-list ul li {
+                margin: 5px;
+            }
+
+    .bullet-list1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .bullet-list1 ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .bullet-list1 ul li {
+                margin: 5px;
+                text-align: left; /* Add this line to left-align the text content */
+            }
+
+                .bullet-list1 ul li h5,
+                .bullet-list1 ul li p {
+                    margin: 0; /* Remove default margin for h5 and p elements */
+                }
+</style>

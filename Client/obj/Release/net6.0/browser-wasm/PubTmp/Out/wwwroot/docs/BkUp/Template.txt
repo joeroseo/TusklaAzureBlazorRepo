@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title of the document</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 45px 0 0 0;
+            font-family: Verdana, sans-serif;
+            font-size: 20px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: red;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+            .navbar a {
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 5px 8px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+
+                .navbar a:hover {
+                    color: #1c87c9;
+                }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="/"> <b> Home </b> </a>
+
+    </div>
+
+
+
+
+       
+
+
+
+
+ 
+
+</body>
+</html>

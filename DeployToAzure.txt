@@ -1,0 +1,20 @@
+Log into GitHub
+Create repository TusklaBlazor (If it exists go to settings and delete)
+
+cd C:\Users\Joe\repos\TusklaBlazorWorking 
+git init
+git add .
+git config --global user.email "joerosejax@gmail.com"
+git config --global user.name "Joe"
+git commit -m "Initial commit" (might need -a also)
+git log
+git remote add origin https://github.com/joeroseo/TusklaBlazor
+git branch -M main
+git push -u origin main
+
+
+Deployment to Azure static web app
+
+In Azure created TusklaBlazorWebApp as a static webapp
+Deploy with GitHub
+Used git hub repository joeroseo TusklaBlazor

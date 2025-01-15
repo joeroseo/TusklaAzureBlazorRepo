@@ -1,0 +1,252 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using TusklaBlazor.Server.Models
+@using TusklaBlazor.Shared.Models
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+@inject IItemListService ItemListService
+@using Blazored.LocalStorage
+@inject ILocalStorageService LocalStorage
+@using System.Text.Json
+
+@page "/showproductorder"
+
+<div class="flex-container">
+    <div class="flex-child" style="border: 0.5px solid #d3d3d3">
+        <div style="margin-left: 1px">
+            <h3>Order Details</h3>
+            <br />
+
+            @if (ProductOrderInfo != null)
+            {
+                <div class="order-details">
+                    <div class="order-info-item">
+                        <strong>Order ID:</strong> <span>@ProductOrderInfo.OrderId</span>
+                    </div> <br />
+
+                    <div class="order-info-item">
+                        <strong>Order Subtotal:</strong> <span>@subTotal.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Tax:</strong> <span>@Tax.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Shipping:</strong> <span>@Shipping.ToString("C0")</span>
+                    </div>
+
+                    <div class="order-info-item">
+                        <strong>Total:</strong> <span>@Total.ToString("C0")</span>
+                    </div> <br />
+
+                    <div class="order-info-item">
+                        <strong>Name:</strong> <span>@ProductOrderInfo.Name</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>Address:</strong> <span>@ProductOrderInfo.Address</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>City:</strong> <span>@ProductOrderInfo.City</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>State:</strong> <span>@ProductOrderInfo.State</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>Zip:</strong> <span>@ProductOrderInfo.Zip</span>
+                    </div>
+                    <div class="order-info-item">
+                        <strong>Email:</strong> <span>@ProductOrderInfo.Email</span>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+
+
+    </div>
+
+    <div class="flex-child" style="border: 0.5px solid #d3d3d3">
+        <div style="margin-left: 1px">
+            <div>
+            @if (ProductOrderItems != null && ProductOrderItems.Any())
+            {
+                <h4>Order Items</h4><br />
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ProductOrderItems)
+                        {
+                            <tr>
+                                <td>@item.Description</td>
+                                <td>@item.Price.ToString("C")</td>
+                                <td>@item.Quantity</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="btn ">
+    <button class="btn btn-primary"  @onclick="Continue">Continue</button>
+</div>
+
+@code {
+    private ProductOrderInfo ProductOrderInfo;
+    private List<ProductOrderItems> ProductOrderItems;
+    private List<Item> orderItems;
+    private decimal subTotal = 0; // Changed from int to decimal
+    private decimal Tax = 0; // Changed from int to decimal
+    private decimal Shipping = 0;
+    private decimal Total = 0;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+            var queryParameters = System.Web.HttpUtility.ParseQueryString(uri.Query);
+            var orderIdString = queryParameters["orderId"];
+
+            Console.WriteLine($"orderIdString: {orderIdString}");
+            //Console.WriteLine($"orderIdString: {orderIdString}");
+            {
+                if (int.TryParse(orderIdString, out int orderId))
+                {
+                    Console.WriteLine($"orderId int is: {orderId}");
+                    await FetchProductOrderInfo(orderId);
+
+                    await FetchProductOrderItems(orderId);
+
+                }
+
+                CalculateSubTotal();
+                subTotal = @Math.Round(subTotal);
+
+                Tax = @Math.Round(0.07m * subTotal); // Ensure both operands are of the same type (decimal)
+
+                Shipping = @Math.Round(0.05m * subTotal); // Ensure both operands are of the same type (decimal)
+
+                CalculateTotal(); // Calculate the Total
+                Total = @Math.Round(Total);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing ShowOrder component: {ex.Message}");
+        }
+    }
+
+    private void CalculateSubTotal()
+    {
+        subTotal = ProductOrderItems.Sum(item => item.Price);
+    }
+
+    private void CalculateTotal()
+    {
+        Total = subTotal + Tax + Shipping;
+    }
+
+    private async Task FetchProductOrderInfo(int orderId)
+    {
+        try
+        {
+            ProductOrderInfo = await HttpClient.GetFromJsonAsync<ProductOrderInfo>($"api/ProductOrderInfo/{orderId}");
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+            Console.WriteLine($"Error fetching order info: {ex.Message}");
+        }
+    }
+
+    private async Task FetchProductOrderItems(int orderId)
+    {
+        try
+        {
+            // Assuming GetFromJsonAsync returns a list of ProductOrderItems
+            ProductOrderItems = await HttpClient.GetFromJsonAsync<List<ProductOrderItems>>($"api/ProductOrderItems/{orderId}");
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+            Console.WriteLine($"Error fetching order items: {ex.Message}");
+        }
+    }
+
+    private async Task Continue()
+    {
+        // You can perform any necessary actions here before navigating
+
+        // Navigate to the desired page (e.g., '/')
+        NavigationManager.NavigateTo("/");
+    }
+
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .flex-container {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: space-around; /* Equal space around the flex items */
+    }
+
+    .flex-child {
+        display: flex;
+        width: calc(50% - 35px); /* 50% width minus the margin between */
+        margin: 15px; /* Space between flex items */
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px solid #d3d3d3;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-label {
+        width: 120px;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    .form-control {
+        width: 150%;
+    }
+
+    .btn {
+        margin-right: 5px;
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+</style>
