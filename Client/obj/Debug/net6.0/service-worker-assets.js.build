@@ -1689,7 +1689,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-gp9QTSQr89nrG18aFjDssfLnG46vvv50NhesbjDspSM=",
+      "hash": "sha256-rGckTi9avP78+oOUV7vtvgIK5sg8Lrabn9QYQei0rUA=",
       "url": "staticwebapp.config.json"
     },
     {
@@ -1769,12 +1769,12 @@
       "url": "videos\/Tesla.mp4"
     },
     {
-      "hash": "sha256-9hjFpEvc2hKkrXX6g9QL\/PLMHhAP4ctc\/9LNFUSRGhI=",
-      "url": "_framework\/blazor.webassembly.js"
-    },
-    {
       "hash": "sha256-MUO009WtgUzB\/KaFx+yeSHx2ptpJnv+92SxH91ROVC0=",
       "url": "TusklaBlazor.Client.styles.css"
+    },
+    {
+      "hash": "sha256-9hjFpEvc2hKkrXX6g9QL\/PLMHhAP4ctc\/9LNFUSRGhI=",
+      "url": "_framework\/blazor.webassembly.js"
     },
     {
       "hash": "sha256-lAGIyP65K8gc+7vvUYMTCNZJaXJtiHqSimcfhpcBOuQ=",
@@ -2757,23 +2757,23 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-fOfM0+R5X8RuWcQJPg9A+tsL6Kq4NnMZoYuc0D+TCjU=",
+      "hash": "sha256-80TKwqylH9tGba53qtunkEJJzHLIQ+KKwseJkwgHOcA=",
       "url": "_framework\/TusklaBlazor.Shared.dll"
     },
     {
-      "hash": "sha256-0eP2dJ\/iqbTo82n9FYYV8NvV1Q\/xah9ANxpqRTmtwwc=",
+      "hash": "sha256-IKVpMlC\/dEOGmG0HeJXnDBLTgr7lQys+Sobez\/xkylM=",
       "url": "_framework\/TusklaBlazor.Shared.pdb"
     },
     {
-      "hash": "sha256-KquIqgL1MnSwqpiOLti0ediij2MOocLm+OzHtHPyyNo=",
+      "hash": "sha256-xCF06B2jo6Yr7ZG3wgUXGmlYnS8lGbCt07dAuzPQQfM=",
       "url": "_framework\/TusklaBlazor.Client.dll"
     },
     {
-      "hash": "sha256-IT+ov18OZZ8r+0dRT0P7N1ahdJiJm\/zmqznmvUicsNI=",
+      "hash": "sha256-LwjoyZyvZXqZvKNfEyM6PwM3CtOJFPMdKg1QUrQuxJ0=",
       "url": "_framework\/TusklaBlazor.Client.pdb"
     },
     {
-      "hash": "sha256-fmQEyVNGz6E03utJo5tHifyBBD1GZAQKapNhmjs8Kgs=",
+      "hash": "sha256-lFa25VHyOvm2bf9S4bT33Z6HK8\/cgOHQ12Rb\/Sf2WWE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -2781,5 +2781,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "Fr2SbS34"
+  "version": "rmDsLy9x"
 };

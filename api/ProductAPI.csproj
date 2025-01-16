@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework> <!-- Match your desired .NET version -->
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Include the required NuGet packages -->
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+  </ItemGroup>
+<ItemGroup>
+    <ProjectReference Include="..\Server\TusklaBlazor.Server.csproj" />
+    <ProjectReference Include="..\Shared\TusklaBlazor.Shared.csproj" />
+</ItemGroup>
+</Project>
+
+

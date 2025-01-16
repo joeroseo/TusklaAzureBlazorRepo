@@ -108,6 +108,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\Tu
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfoInputs.cache
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.AssemblyInfo.cs
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.sourcelink.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\refint\TusklaBlazor.Shared.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Shared\obj\Debug\net6.0\TusklaBlazor.Shared.pdb

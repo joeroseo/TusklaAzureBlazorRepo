@@ -2172,6 +2172,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNew\Server\obj\Debug\net6.0\refint\
 C:\Users\joero\source\repos\TusklaAzureBlazorNew\Server\obj\Debug\net6.0\TusklaBlazor.Server.pdb
 C:\Users\joero\source\repos\TusklaAzureBlazorNew\Server\obj\Debug\net6.0\TusklaBlazor.Server.genruntimeconfig.cache
 C:\Users\joero\source\repos\TusklaAzureBlazorNew\Server\obj\Debug\net6.0\ref\TusklaBlazor.Server.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\TusklaBlazor.Client.staticwebassets.runtime.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\appsettings.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
@@ -2180,7 +2181,6 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\Bl
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\TusklaBlazor.Client.staticwebassets.runtime.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\TusklaBlazor.Server.staticwebassets.runtime.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\TusklaBlazor.Server.exe
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\bin\Debug\net6.0\TusklaBlazor.Server.deps.json
@@ -2490,6 +2490,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\Tu
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\TusklaBlazor.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\TusklaBlazor.Server.RazorAssemblyInfo.cache
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\TusklaBlazor.Server.RazorAssemblyInfo.cs
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\TusklaBlazor.Server.sourcelink.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Server\obj\Debug\net6.0\staticwebassets\msbuild.TusklaBlazor.Server.Microsoft.AspNetCore.StaticWebAssets.props

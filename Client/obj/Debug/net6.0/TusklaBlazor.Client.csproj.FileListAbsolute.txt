@@ -8685,6 +8685,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNew\Client\obj\Debug\net6.0\compres
 C:\Users\joero\source\repos\TusklaAzureBlazorNew\Client\obj\Debug\net6.0\compressed\obyz1038cu.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNew\Client\obj\Debug\net6.0\compressed\cbdzv0wvki.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNew\Client\obj\Debug\net6.0\compressed\yq3tanra1m.gz
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.27.ugig3gi79a.js
@@ -8930,6 +8931,10 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.pdb
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.dll
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.pdb
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.IdentityModel.Tokens.dll.gz
@@ -9030,6 +9035,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.pdb.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
@@ -9043,6 +9049,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Http.dll.gz
@@ -9114,6 +9121,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authentication.dll.gz
@@ -9137,6 +9145,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.IdentityModel.JsonWebTokens.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.gz
@@ -9148,6 +9157,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.pdb.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Hosting.Abstractions.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Caching.Abstractions.dll.gz
@@ -9177,16 +9187,6 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\ww
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.IdentityModel.Protocols.dll.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll.gz
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.dll
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.pdb
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.dll
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.pdb
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.pdb.gz
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Client.dll.gz
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.dll.gz
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json.gz
-C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\_framework\TusklaBlazor.Shared.pdb.gz
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\service-worker.js
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\wwwroot\service-worker-assets.js
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\bin\Debug\net6.0\TusklaBlazor.Client.staticwebassets.runtime.json
@@ -9445,6 +9445,7 @@ C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\Tu
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\TusklaBlazor.Client.AssemblyInfo.cs
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\TusklaBlazor.Client.csproj.CoreCompileInputs.cache
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\TusklaBlazor.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\TusklaBlazor.Client.sourcelink.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\blazor.build.boot-extension.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\blazor.boot.json
 C:\Users\joero\source\repos\TusklaAzureBlazorNewGood1\Client\obj\Debug\net6.0\staticwebassets.build.json
